@@ -1,0 +1,18 @@
+{
+    "name": "LogManager",
+    "version": "1.0.0",
+    "author": "Wesley Cipriano Da Silva ",
+    "maintainer": "wesley.csilva@ufrpe.br",
+    "sentence": "Biblioteca para gerenciar logs em dispositivos ESP32 e enviar para um broker MQTT.",
+    "paragraph": "LogManager é uma biblioteca para coletar, armazenar e enviar logs de eventos em dispositivos ESP32 para um broker MQTT. A biblioteca também gerencia logs críticos, enviando-os diretamente e de forma eficiente.",
+    "category": "Data Processing",
+    "url": "https://github.com/wesleycipriano1/LogManager",
+    "license": "MIT",
+    "architectures": "esp32",
+    "dependencies": {
+      "WiFi": "*",
+      "PubSubClient": "*",
+      "ArduinoJson": "*"
+    }
+  }
+  
