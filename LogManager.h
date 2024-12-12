@@ -32,7 +32,7 @@ public:
     // Métodos públicos
     void conectarWiFi();
     void conectarMQTT();
-    // Alterar para aceitar o campo 'quem' como argumento
+    
     void logDebug(const String& onde, const String& como, const String& porQue, const String& quem);
     void logWarning(const String& onde, const String& como, const String& porQue, const String& quem);
     void logErro(const String& onde, const String& como, const String& porQue, const String& quem, ErrorType errorType);

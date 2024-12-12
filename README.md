@@ -48,7 +48,9 @@ void loop() {
     logManager.logDebug("MainLoop", "Início do loop", "Verificação de estado", "Sistema");
     delay(10000); // Atraso para simular tempo entre eventos
 }
-Dependências
+
+## Dependências
+
 WiFi: Biblioteca padrão do Arduino para conexão Wi-Fi.
 
 PubSubClient: Biblioteca para conexão com o broker MQTT.
@@ -59,5 +61,6 @@ NTPClient: Biblioteca para sincronização de tempo via NTP.
 
 TimeLib: Biblioteca para manipulação de tempo.
 
-Licença
+## Licença
+
 Este projeto está licenciado sob os termos da licença MIT. Consulte o arquivo LICENSE para mais informações.

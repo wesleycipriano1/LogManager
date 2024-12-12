@@ -1,0 +1,12 @@
+# Ignore arquivos binários e de compilação
+*.bin
+*.elf
+*.hex
+
+# Ignore a pasta build
+/build/
+
+# Ignore arquivos específicos do Arduino
+*.ino.*
+*.cpp.*
+*.h.*
