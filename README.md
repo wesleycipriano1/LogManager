@@ -48,6 +48,7 @@ void loop() {
     logManager.logDebug("MainLoop", "Início do loop", "Verificação de estado", "Sistema");
     delay(10000); // Atraso para simular tempo entre eventos
 }
+```
 
 ## Dependências
 
